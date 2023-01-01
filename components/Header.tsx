@@ -11,12 +11,12 @@ const Header = () => {
           className="cursor-pointer object-contain"
         />
 
-        <ul className='hidden space-x-4 md:flex '>
-            <li className='headerLink' >Home</li>
-            <li className='headerLink' >TV Shows</li>
-            <li className='headerLink' >Movies</li>
-            <li className='headerLink' >New & Populer</li>
-            <li className='headerLink' >My List</li>
+        <ul className='hidden space-x-4 md:flex  '>
+            <li className='headerLink hover:text-red-600' >Home</li>
+            <li className='headerLink hover:text-red-600' >TV Shows</li>
+            <li className='headerLink hover:text-red-600' >Movies</li>
+            <li className='headerLink hover:text-red-600' >New & Populer</li>
+            <li className='headerLink hover:text-red-600' >My List</li>
         </ul>
         </div>
         <div>
