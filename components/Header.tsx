@@ -1,4 +1,5 @@
 import React from 'react'
+import {AiOutlineSearch, AiOutlineBell} from "react-icons/ai"
 
 const Header = () => {
   return (
@@ -20,7 +21,9 @@ const Header = () => {
         </ul>
         </div>
         <div>
-
+            <AiOutlineSearch className='hidden sm:inline h-6 w-6 ' />
+            <p className='hidden lg:inline'>Kids</p>
+            <AiOutlineBell />
         </div>
     </header>
   )
