@@ -22,7 +22,7 @@ const Header = () => {
     
 
   return (
-    <header className={"`${isScrolled && 'bg-[#141414 }  ` lg:py-6 lg:px-6"}>
+    <header className={"`${isScrolled && 'bg-[#141414 }` lg:py-6 lg:px-6"}>
         <div className='flex items-center space-x-2 md:space-x-10  '>
         <img
           src="https://rb.gy/ulxxee"
