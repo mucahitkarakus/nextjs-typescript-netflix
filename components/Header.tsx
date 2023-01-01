@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 import {AiOutlineSearch, AiOutlineBell} from "react-icons/ai"
 
@@ -20,10 +21,17 @@ const Header = () => {
             <li className='headerLink hover:text-red-600' >My List</li>
         </ul>
         </div>
-        <div>
+        <div className='flex items-center space-x-4 text-sm font-light '>
             <AiOutlineSearch className='hidden sm:inline h-6 w-6 ' />
             <p className='hidden lg:inline'>Kids</p>
-            <AiOutlineBell />
+            <AiOutlineBell className='h-6 w-6 ' />
+            <Link href="/account">
+            <img
+            src="https://rb.gy/g1pwyx"
+            alt=""
+            className="cursor-pointer rounded"
+          />
+            </Link>
         </div>
     </header>
   )
