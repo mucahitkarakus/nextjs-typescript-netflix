@@ -1,6 +1,7 @@
 import {NextPage} from "next"
 import Head from 'next/head'
 import Header from '../components/Header'
+import Banner from "../components/Banner"
 
 
 const Home: NextPage = () => {
@@ -13,10 +14,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
     <Header />
-
-     {/* Header */}
      <main>
-      {/* Banner */}
+     <Banner />
       <section>
         {/* Row */}
         {/* Row */}
